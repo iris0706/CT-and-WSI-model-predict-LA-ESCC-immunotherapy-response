@@ -1,0 +1,12 @@
+# Environment reported in the manuscript: PyTorch 2.1.0, CUDA 12.1 (PyTorch 2.1 supports Python 3.8-3.11)
+torch==2.1.0
+torchvision==0.16.0
+timm>=1.0.3                 # loads the UNI2-h patch encoder from the Hugging Face Hub (gated: accept the terms, then huggingface-cli login)
+huggingface_hub
+numpy
+pandas
+scipy
+scikit-learn
+SimpleITK
+openslide-python
+Pillow

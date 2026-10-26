@@ -1,0 +1,23 @@
+{
+  "_note": "Values reported in Table 2 of the manuscript. Used by scripts/evaluate.py --check to confirm that the code and the frozen weights reproduce the published results.",
+  "training": {
+    "ct":     {"auc": 0.820, "tp": 157, "fn": 49, "tn": 91,  "fp": 27, "brier": 0.177, "delong_p_vs_fusion": "<0.001"},
+    "wsi":    {"auc": 0.875, "tp": 164, "fn": 42, "tn": 98,  "fp": 20, "brier": 0.150, "delong_p_vs_fusion": "<0.001"},
+    "fusion": {"auc": 0.930, "tp": 173, "fn": 33, "tn": 107, "fp": 11, "brier": 0.118}
+  },
+  "internal_test": {
+    "ct":     {"auc": 0.790, "tp": 29, "fn": 22, "tn": 26, "fp": 4, "brier": 0.185, "delong_p_vs_fusion": "<0.001"},
+    "wsi":    {"auc": 0.850, "tp": 39, "fn": 12, "tn": 24, "fp": 6, "brier": 0.169, "delong_p_vs_fusion": 0.003},
+    "fusion": {"auc": 0.915, "tp": 36, "fn": 15, "tn": 26, "fp": 4, "brier": 0.133}
+  },
+  "external_test": {
+    "ct":     {"auc": 0.770, "tp": 64, "fn": 29, "tn": 27, "fp": 11, "brier": 0.181, "delong_p_vs_fusion": "<0.001"},
+    "wsi":    {"auc": 0.835, "tp": 68, "fn": 25, "tn": 26, "fp": 12, "brier": 0.160, "delong_p_vs_fusion": 0.007},
+    "fusion": {"auc": 0.900, "tp": 72, "fn": 21, "tn": 30, "fp": 8,  "brier": 0.133}
+  },
+  "prospective_test": {
+    "ct":     {"auc": 0.735, "tp": 22, "fn": 26, "tn": 23, "fp": 5, "brier": 0.206, "delong_p_vs_fusion": "<0.001"},
+    "wsi":    {"auc": 0.815, "tp": 35, "fn": 13, "tn": 19, "fp": 9, "brier": 0.180, "delong_p_vs_fusion": 0.014},
+    "fusion": {"auc": 0.895, "tp": 33, "fn": 15, "tn": 26, "fp": 2, "brier": 0.145}
+  }
+}

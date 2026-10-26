@@ -1,0 +1,30 @@
+# Model weights and checkpoints are not released
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# Patient-level data and intermediate files
+data/
+runs/
+*.csv
+*.xlsx
+*.xls
+*.npy
+*.npz
+*.pkl
+*.h5
+*.svs
+*.ndpi
+*.mrxs
+*.tif
+*.tiff
+*.nii
+*.nii.gz
+*.dcm
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
